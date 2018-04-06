@@ -9,7 +9,7 @@ import (
 )
 
 func TestSplit(t *testing.T) {
-	if err := executeTest("", "", 0); err != nil {
+	if err := executeTest("", "", 0, 1); err != nil {
 		t.Logf("fail: %+v\n", err)
 		t.Fail()
 	}
